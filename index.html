@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sameer - Developer Portfolio </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sameer's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection" id="home">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Sameer</span>
+                <div> and I am passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="images\bg.png">
+            </div>
+        </section>
+
+        <hr>
+        <section class="section" id="skills">
+            <h1>Skills</h1>
+            <div class="images">
+            <div id="firstimage"><img src="images\c++ logo.png"></div>
+            <div id="secondimage"><img src="images\python logo.png"></div>
+            <div id="thirdimage"><img src="images\git logo.png"></div>
+            <div id="fourthimage"><img src="images\logo.png"></div>
+            <div id="fifthimage"><img src="images\react logo.png"></div>
+            <div id="sixthimage"><img src="images\express logo.png"></div>
+            <div id="seventhimage"><img src="images\nodejs.png"></div>
+            <div id="eightimage"><img src="images\mongodb logo.png"></div>
+            </div>
+        </section>
+
+        <hr>
+        <section class="section" id="projects">
+            <h1>Projects</h1>
+            <p class="projects-subtitle">A SMALL PORTION OF THE THINGS I'VE BUILT</p>
+
+            <div class="projects-grid" aria-label="Projects list">
+                <article class="project-card">
+                    <div class="project-top">
+                        <h2 class="project-title">AI-Powered Answer Checking System</h2>
+                        <div class="project-links" aria-label="Project links">
+                            <a class="project-link" href="https://github.com/Smeerdev/Answer-Checking-System" target="_blank" rel="noreferrer noopener" title="Click to checkout my project">
+                                <i class="fa-brands fa-github" aria-hidden="true"></i><span>Code</span>
+                            </a>
+                        </div>
+                    </div>
+                    <ul class="project-desc">
+                        <li><b>The Problem:</b> Manual grading of subjective answers is slow and prone to human bias.</li>
+                        <li><b>The Solution:</b> Developed an automated scoring engine using Semantic Similarity that matches human evaluation accuracy by 70%.</li>
+                        <li><b>Key Result:</b> Streamlined the evaluation of 500+ responses, reducing manual grading workload by 30% through automated batch processing.</li>
+                    </ul>
+                    
+                    <div class="project-tags" aria-label="Tech stack">
+                        <span class="tag"><i class="devicon-python-plain colored"></i> Python</span>
+                        <span class="tag"><i class="fa-solid fa-brain"></i> NLP</span>
+                        <span class="tag"><i class="fa-solid fa-microchip"></i> spaCy</span>
+                        <span class="tag"><i class="devicon-flask-original"></i> Flask</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-top">
+                        <h2 class="project-title">Image Mailer</h2>
+                        <div class="project-links" aria-label="Project links">
+                            <a class="project-link" href="https://github.com/Smeerdev/Image-Mailer" target="_blank" rel="noreferrer noopener" title="Click to checkout my Project">
+                                <i class="fa-brands fa-github" aria-hidden="true"></i><span>Code</span>
+                            </a>
+                        </div>
+                    </div>
+                    <ul class="project-desc">
+                        <li><b>The Problem:</b> Manually searching and sharing categorized image assets is repetitive and time-consuming.</li>
+                        <li><b>The Solution:</b> Built a "Search-to-Inbox" app that fetches keyword-specific images via Google Search API and automates delivery.</li>
+                        <li><b>Key Result:</b> Engineered a robust backend capable of handling 70+ image requests per trigger with integrated error handling and validation.</li>
+                    </ul>
+                    <div class="project-tags" aria-label="Tech stack">
+                        <span class="tag"><i class="devicon-react-original colored"></i> React</span>
+                        <span class="tag"><i class="devicon-nodejs-plain colored"></i> Node</span>
+                        <span class="tag"><i class="devicon-mongodb-plain colored"></i> MongoDB</span>
+                        <span class="tag"><i class="fa-solid fa-envelope"></i> Nodemailer</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-top">
+                        <h2 class="project-title">React Video Player</h2>
+                        <div class="project-links" aria-label="Project links">
+                            <a class="project-link" href="https://github.com/Smeerdev/react-video-player" target="_blank" rel="noreferrer noopener" title="Click to checkout my Project">
+                                <i class="fa-brands fa-github" aria-hidden="true"></i><span>Code</span>
+                            </a>
+                        </div>
+                    </div>
+                    <ul class="project-desc">
+                        <li><b>The Problem:</b> Standard video players lack deep navigation for long-form educational content.</li>
+                        <li><b>The Solution:</b> Created a tutorial platform featuring synchronized transcripts and 50+ time-stamped markers for precise navigation.</li>
+                        <li><b>Key Result:</b> Boosted user engagement by 25% by integrating real-time exercise modules and interactive calls-to-action directly into the playback.</li>
+                    </ul>
+                    <div class="project-tags" aria-label="Tech-Stack">
+                        <span class="tag"><i class="devicon-react-original colored"></i> React.js</span>
+                        
+                        <span class="tag"><i class="devicon-html5-plain colored"></i> Video.js</span>
+                        
+                        <span class="tag"><i class="devicon-css3-plain colored"></i> CSS</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+        
+        <hr>
+        <section class="section" id="about">
+            <h1>About</h1>
+            
+            <div class="about-grid">
+                <div class="about-card about-intro">
+                    <p>
+                        I'm a Computer Engineering student at Thapar Institute of Engineering and Technology with a passion for
+                        building scalable software solutions. My journey in tech is driven by curiosity—from the low-level logic
+                        of C++ to modern full-stack development with React and Node.js.
+                    </p>
+                    <p>
+                        Whether I'm optimizing Data Structures & Algorithms or developing evaluation systems, I enjoy turning
+                        ideas into reliable, working products. Right now I'm focused on sharpening my MERN stack skills and
+                        exploring the intersection of software automation and AI.
+                    </p>
+
+                    <div class="about-cta">
+                        <a class="btn primary" href="#contact">Contact me</a>
+                        <a class="btn ghost" href="https://drive.google.com/file/d/1TnlnIw8JpdTRkisfeeoDRm-Bxse38R-f/view?usp=sharing" title="Click to Download">Download Resume</a>
+                    </div>
+                </div>
+
+                <div class="about-card about-highlights">
+                    <h2>What I bring</h2>
+                    <ul class="about-list">
+                        <li><span class="dot"></span><span>Strong problem solving with DSA + clean code practices</span></li>
+                        <li><span class="dot"></span><span>Full-stack development with the MERN stack</span></li>
+                        <li><span class="dot"></span><span>Comfortable with Git workflows and collaboration</span></li>
+                        <li><span class="dot"></span><span>Curiosity for AI automation and systems thinking</span></li>
+                    </ul>
+
+                    <div class="about-tags" aria-label="Core technologies">
+                        <span class="tag">C/C++</span>
+                        <span class="tag">Javascript</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Express</span>
+                        <span class="tag">MongoDB</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">Git</span>
+                    </div>
+                </div>
+                <div class="about-card about-stats" aria-label="Quick stats">
+                    <div class="stat">
+                        <div class="stat-num">MERN</div>
+                        <div class="stat-label">Focus area</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-num">DSA</div>
+                        <div class="stat-label">100+ Questions on Leetcode</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-num">AI</div>
+                        <div class="stat-label">Exploring</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+        <section class="section" id="contact">
+            <h1>Contact</h1>
+            <p class="contact-subtitle">Feel free to reach out for opportunities, collaborations, or just a quick chat.</p>
+
+            <ul class="contact-list" aria-label="Contact information">
+                <li class="contact-item">
+                    <span class="contact-icon" aria-hidden="true"><i class="fa-solid fa-phone"></i></span>
+                    <span class="contact-label">Phone:</span>
+                    <span class="contact-value">+91 70093 72705</span>
+                </li>
+
+                <li class="contact-item">
+                    <span class="contact-icon" aria-hidden="true"><i class="fa-solid fa-envelope"></i></span>
+                    <span class="contact-label">Email:</span>
+                    <span class="contact-value">sameergarg916@gmail.com</span>
+                </li>
+
+                <li class="contact-item">
+                    <span class="contact-icon" aria-hidden="true"><i class="fa-brands fa-linkedin"></i></span>
+                    <span class="contact-label">LinkedIn:</span>
+                    <a class="contact-link" href="https://www.linkedin.com/in/sameer-garg-239a40271/" target="_blank" rel="noreferrer noopener" title="click to checkout my linkedin">Sameer Garg</a>
+                </li>
+
+                <li class="contact-item">
+                    <span class="contact-icon" aria-hidden="true"><i class="fa-brands fa-github"></i></span>
+                    <span class="contact-label">GitHub:</span>
+                    <a class="contact-link" href="https://github.com/Smeerdev" target="_blank" rel="noreferrer noopener" title="click to checkout my github">Smeerdev</a>
+                </li>
+
+                <li class="contact-item">
+                    <span class="contact-icon" aria-hidden="true"><i class="fa-solid fa-location-dot"></i></span>
+                    <span class="contact-label">Location:</span>
+                    <span class="contact-value">Patiala, Punjab</span>
+                </li>
+            </ul>
+        </section>
+        <hr>
+    </main>
+
+    
+    <footer class="footer">
+        <p>@ 2026 Sameer garg. Built with Passion & Code</p>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="first.js"></script>
+</body>
+
+</html>
